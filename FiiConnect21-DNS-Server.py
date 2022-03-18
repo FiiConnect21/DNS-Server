@@ -3,7 +3,7 @@
 # All rights reserved
 
 # FiiConnect21 DNS Server v1.0
-# Created by Austin Burk/Sudomemo. Edited by KcrPL and Larsenv.
+# Created by Austin Burk/Sudomemo. Edited by KcrPL, Larsenv and Hassunaama.
 
 from datetime import datetime
 from time import sleep
