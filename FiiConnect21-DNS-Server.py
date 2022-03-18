@@ -237,7 +237,7 @@ except PermissionError:
   sys.exit(1)
 
 print("-- Done --- \n")
-print("[INFO] Starting RiiConnect24 DNS server.")
+print("[INFO] Starting FiiConnect21 DNS server.")
 print("[INFO] Ready. Waiting for your Wii / DS to send DNS Requests...\n")
 
 if __name__ == '__main__':
