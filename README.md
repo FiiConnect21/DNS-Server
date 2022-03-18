@@ -2,7 +2,7 @@ FiiConnect21 DNS Server [![Actions Status](https://github.com/RiiConnect24/DNS-S
 ===
 This DNS server is modified from RiiConnect24 DNS Server / Sudomemo DNS
 ALL RIGHTS TO SUDOMEMO DNS
-This DNS Server will run locally on your computer and allow your Wii to connect to RiiConnect24 servers even if your ISP blocks connections to our DNS Server. When you use the DNS on your Wii or with this app, it also enhances the use of services such as Wiimmfi. This tool can also be used as a DNS server for Nintendo DS games.
+This DNS Server will run locally on your computer and allow your Wii to connect to FiiConnect21 str2hax installer (needed for installation).
 
 ## Setup
 
