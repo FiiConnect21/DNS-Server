@@ -70,7 +70,7 @@ print(":---------------------------:")
 print("\nAll other settings should match what is shown at the above URL.\n")
 
 print("#### Getting Help ####\n")
-print("Need help? Visit our Discord server https://discord.gg/b4Y7jfD or contact us at support@riiconnect24.net\n")
+print("Need help? Visit our Discord server https://discord.gg/b4Y7jfD or contact us at helsincraft@gmail.com\n")
 
 print("--- Starting up ---")
 
