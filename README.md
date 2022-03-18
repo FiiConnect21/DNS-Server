@@ -17,7 +17,7 @@ First, make sure that your Wii is connected to the same network as your computer
 
 # Running on Windows/Linux/macOS:
 
-You will need to install Python 3 and run these commands in the Terminal.
+You will need to install Python 3 and run these commands in the Terminal / Command Prompt.
 
 > pip install dnslib requests
 
