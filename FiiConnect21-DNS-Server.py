@@ -2,7 +2,7 @@
 # (c) 2019 Austin Burk/Sudomemo
 # All rights reserved
 
-# RiiConnect24 DNS Server v1.2
+# FiiConnect21 DNS Server v1.0
 # Created by Austin Burk/Sudomemo. Edited by KcrPL and Larsenv.
 
 from datetime import datetime
@@ -29,7 +29,7 @@ def get_platform():
 
     return platforms[sys.platform]
 
-RIICONNECT24DNSSERVER_VERSION = "1.2"
+RIICONNECT24DNSSERVER_VERSION = "1.0"
 
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -48,7 +48,7 @@ SERIAL = int((datetime.utcnow() - EPOCH).total_seconds())
 MY_IP = get_ip()
 
 print("+===============================+")
-print("|    RiiConnect24 DNS Server    |")
+print("|    FiiConnect21 DNS Server    |")
 print("|          Version " + RIICONNECT24DNSSERVER_VERSION + "          |")
 print("+===============================+\n")
 
@@ -155,7 +155,7 @@ class Record:
 ZONES = {}
 
 try:
-  get_zones = requests.get("https://raw.githubusercontent.com/RiiConnect24/DNS-Server/master/dns_zones.json")
+  get_zones = requests.get("https://raw.githubusercontent.com/FiiConnect21/DNS-Server/master/dns_zones.json")
 except requests.exceptions.Timeout:
   print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
   print("[ERROR] Are you connected to the Internet?")
