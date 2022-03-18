@@ -1,6 +1,7 @@
-RiiConnect24 DNS Server [![Actions Status](https://github.com/RiiConnect24/DNS-Server/workflows/Build/badge.svg)](https://github.com/RiiConnect24/DNS-Server/actions)
+FiiConnect21 DNS Server [![Actions Status](https://github.com/RiiConnect24/DNS-Server/workflows/Build/badge.svg)](https://github.com/FiiConnect21/DNS-Server/actions)
 ===
-
+This DNS server is modified from RiiConnect24 DNS Server / Sudomemo DNS
+ALL RIGHTS TO SUDOMEMO DNS
 This DNS Server will run locally on your computer and allow your Wii to connect to RiiConnect24 servers even if your ISP blocks connections to our DNS Server. When you use the DNS on your Wii or with this app, it also enhances the use of services such as Wiimmfi. This tool can also be used as a DNS server for Nintendo DS games.
 
 ## Setup
@@ -14,19 +15,19 @@ First, make sure that your Wii is connected to the same network as your computer
 
 **If you use Pi-hole, please see [Setting up Pi-hole](#Setting-up-Pi-hole)**
 
-# Running on Windows:
-
-Run the .exe provided [on the releases page](https://github.com/RiiConnect24/RiiConnect24-DNS-Server/releases). If your antivirus notifies you about the .exe file, allow it and run it. If it doesn't work, you should also allow communication for this this .exe in your firewall settings.
-
-# Running on Linux/macOS:
+# Running on Windows/Linux/macOS:
 
 You will need to install Python 3 and run these commands in the Terminal.
 
 > pip install dnslib requests
 
-To run it, simply type in:
+To run it on Windows, simply type in:
 
-> sudo python3 RiiConnect24-DNS-Server.py
+> python3 FiiConnect21-DNS-Server.py
+
+To run it on Linux/macOS, simply type in:
+
+> sudo python3 FiiConnect21-DNS-Server.py
 
 Replace `python3` with the name/path to your Python binary if necessary
 
@@ -59,7 +60,7 @@ Once it's done installing, run:
 On the server running Pi-hole, run the following command:
 
 ```bash
-curl https://raw.githubusercontent.com/RiiConnect24/DNS-Server/master/dns_zones-hosts.txt >> /etc/pihole/custom.list
+curl https://raw.githubusercontent.com/FiiConnect24/DNS-Server/master/dns_zones-hosts.txt >> /etc/pihole/custom.list
 ```
 RiiConnect24 domains will be listed on Pi-hole webpage menu under "Local DNS Records".
 
